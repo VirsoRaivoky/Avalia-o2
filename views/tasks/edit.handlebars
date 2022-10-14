@@ -1,0 +1,26 @@
+<h1>Editar jogos</h1>
+<form action="/tasks/edit" method="post">
+    <input type="hidden" name="id" value="{{task.id}}">
+    <div class="form-control">
+        <label for="title">Título:</label>
+        <input type="text" name="title" placeholder="Nome do jogo" value="{{task.title}}">
+    </div>
+    <div class="form-control">
+        <label for="genre">Genêro:</label>
+        <input type="text" name="genre" placeholder="Genêro do jogo" value="{{task.genre}}">
+    </div>
+    <div class=" form-control">
+        <label for="developer">Desenvolvedora:</label>
+        <input type="text" name="developer" placeholder="Desenvolvedora" value="{{task.Desenvolvedora}}">
+    </div>
+    <div class=" form-control">
+        <label for="year">Ano de Lançamento:</label>
+        <input type="number" name="year" placeholder="Lançamento" value="{{task.year}}">
+    </div>
+    <div class=" form-control">
+        <label for="score">Pontuação:</label>
+        <input type="number" name="score" placeholder="Pontuação" value="{{task.score}}">
+    </div>
+
+    <input type=" submit" value="Salvar">
+</form>

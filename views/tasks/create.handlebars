@@ -1,0 +1,24 @@
+<h1>Adicione um jogo</h1>
+<form action="/tasks/add" method="post">
+    <div class="form-control">
+        <label for="title">Título:</label>
+        <input type="text" name="title" placeholder="Nome do Jogo">
+    </div>
+    <div class="form-control">
+        <label for="genre">Genêro:</label>
+        <textarea type="text" name="genre" placeholder="Genêro do jogo"></textarea>
+    </div>
+    <div class="form-control">
+        <label for="developer">Desenvolvedora:</label>
+        <textarea type="text" name="developer" placeholder="Desenvolvedora"></textarea>
+    </div>
+    <div class="form-control">
+        <label for="year">Ano de lançamento:</label>
+        <input type="number" name="year" placeholder="Lançamento">
+    </div>
+    <div class="form-control">
+        <label for="score">Pontuação:</label>
+        <textarea type="number" name="score" placeholder="Pontuação"></textarea>
+    </div>
+    <input type="submit" value="Cadastrar">
+</form>
