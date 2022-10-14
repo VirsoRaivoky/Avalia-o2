@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize')
 
 const db = require('../db/conn')
 
-const Jogos = db.define('Task', {
+const Jogos = db.define('Jogo', {
     title: {
         type: DataTypes.STRING,
         allowNull: false,
